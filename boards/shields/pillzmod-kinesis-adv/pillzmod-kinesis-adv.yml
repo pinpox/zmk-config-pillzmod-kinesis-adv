@@ -1,0 +1,13 @@
+file_format: "1"
+id: pillzmod-kinesis-adv
+name: Pillz Mod Kinesis Advantage
+type: shield
+url: https://github.com/keepitsimplejim/zmk-config-pillzmod-kinesis-adv.git
+requires: 
+  - pillbug
+  - blackpill_f401cc
+  - blackpill_f401ce
+  - blackpill_f411ce
+features:
+  - keys
+  - backlight

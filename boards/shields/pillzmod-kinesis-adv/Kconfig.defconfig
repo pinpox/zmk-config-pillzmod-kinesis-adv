@@ -1,0 +1,13 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_PILLZMOD_KINESIS_ADV
+
+config ZMK_KEYBOARD_NAME
+    default "Pillzmod Kinesis Advantage"
+
+config ZMK_BACKLIGHT
+    select LED
+    select LED_GPIO
+
+endif
